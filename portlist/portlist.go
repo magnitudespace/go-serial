@@ -17,7 +17,7 @@ package main
 
 import "fmt"
 import "log"
-import "go.bug.st/serial.v1/enumerator"
+import "github.com/magnitudespace/go-serial/enumerator"
 
 func main() {
 	ports, err := enumerator.GetDetailedPortsList()

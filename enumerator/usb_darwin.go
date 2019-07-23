@@ -6,7 +6,7 @@
 
 // +build go1.10,darwin
 
-package enumerator // import "go.bug.st/serial.v1/enumerator"
+package enumerator // import "github.com/magnitudespace/go-serial/enumerator"
 
 // #cgo LDFLAGS: -framework CoreFoundation -framework IOKit
 // #include <IOKit/IOKitLib.h>
